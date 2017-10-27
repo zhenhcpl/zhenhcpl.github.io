@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutUsComponent } from './About Us/about-us.component';
 import { ContactComponent } from './Contact/contact.component';
+import {LocationStrategy, HashLocationStrategy} from '@angular/common';
 
 const appRoutes: Routes = [
   {
@@ -32,7 +33,7 @@ const appRoutes: Routes = [
     BrowserModule,
     RouterModule.forRoot(appRoutes)
   ],
-  providers: [],
+  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
