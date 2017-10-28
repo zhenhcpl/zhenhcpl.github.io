@@ -1,14 +1,22 @@
 .nav-container {
      background-color: lightgrey;
      border-bottom: #b8342c solid 4px;
+     z-index: 1030;
 }
 
-.nav-div-container {
-    height: 6em;
+.nav-div-container {}
+
+.navbar-button {
+    border-color: #b8342c;
+    border-width: 2px;
+}
+
+.navbar-button :focus {
+    outline:none;
 }
 
 #brand-anchor {
-    height: 110%;
+    height: 6em;
 }
 
 #brand-image  {
@@ -24,8 +32,7 @@
 }
 
 #brand-name-cotainer {
-    position: relative;
-    top: 18%;
+   margin-top: 3%;
 }
 
 #main-brand-name {
