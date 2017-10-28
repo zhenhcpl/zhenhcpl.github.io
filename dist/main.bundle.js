@@ -150,7 +150,7 @@ var HomeComponent = (function () {
 }());
 HomeComponent = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* Component */])({
-        selector: 'app-home',
+        selector: 'app-root',
         template: __webpack_require__("../../../../../src/app/Home/home.component.html"),
         styles: [__webpack_require__("../../../../../src/app/Home/home.css")]
     })
@@ -278,7 +278,7 @@ var AppComponent = (function () {
 }());
 AppComponent = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* Component */])({
-        selector: 'app-root',
+        selector: 'app-home',
         template: __webpack_require__("../../../../../src/app/app.component.html"),
         styles: [__webpack_require__("../../../../../src/app/app.component.css")]
     })
