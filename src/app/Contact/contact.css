@@ -4,6 +4,7 @@
     height: 310px;
     margin-left: 33px;
     width: 90%;
+    margin-bottom: 30px;
 }
 
 .address-detail-container { 
@@ -13,7 +14,7 @@
 }
 
 #contact-logo {
-    height: 140px;
+    height: 15em;
     width: 100%;
 }
 

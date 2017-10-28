@@ -1,0 +1,12 @@
+.product-container {
+    height: 38em;
+    background-color: #FED0BB;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.coming-header {
+    font-family: 'Roboto Slab';
+    font-size: 4em;
+}

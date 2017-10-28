@@ -5,7 +5,9 @@ import { AppComponent } from './app.component';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutUsComponent } from './About Us/about-us.component';
 import { ContactComponent } from './Contact/contact.component';
-import {LocationStrategy, HashLocationStrategy} from '@angular/common';
+import { LocationStrategy, HashLocationStrategy } from '@angular/common';
+import { HomeComponent } from './Home/home.component';
+import { ProductsComponent } from './Products/products.component';
 
 const appRoutes: Routes = [
   {
@@ -16,7 +18,11 @@ const appRoutes: Routes = [
     path: 'contact',
     component: ContactComponent
   },
-   {
+  {
+    path: 'products',
+    component: ProductsComponent
+  },
+  {
     path: '',
     redirectTo: 'about-us',
     pathMatch: 'full'
@@ -27,13 +33,15 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     AboutUsComponent,
-    ContactComponent
+    ContactComponent,
+    HomeComponent,
+    ProductsComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot(appRoutes)
   ],
-  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
-  bootstrap: [AppComponent]
+  providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }],
+  bootstrap: [HomeComponent]
 })
 export class AppModule { }
