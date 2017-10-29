@@ -48,3 +48,7 @@
 #unit-brand-name {
     font-size: 1.2em;
 }
+
+footer.py-4.bg-dark.no-user-select {
+    background-color: #b8342c !important;
+}

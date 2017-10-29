@@ -136,7 +136,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, ".home-container {\n    background-image: url('/assets/tint-back.JPG');\n    height: 81vh;\n    background-size: cover;\n}\n.flash-cards {\n    height: 9em;\n    background-color: red;\n    border-radius: 13px;\n    margin-top: 4em;\n    margin-bottom: 1em;\n    color: white;\n    -webkit-box-pack: center;\n    -ms-flex-pack: center;\n    justify-content: center;\n    -webkit-box-align: center;\n    -ms-flex-align: center;\n    align-items: center;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n}\n\n.center-card {\n    margin-left: 38%;\n    color: white;\n}\n\nspan {\n    font-size: 2em;\n}", ""]);
+exports.push([module.i, ".home-container {\n    background-image: url('/dist/assets/tint-back.JPG');\n    height: 81vh;\n    background-size: cover;\n}\n.flash-cards {\n    height: 9em;\n    border-radius: 13px;\n    margin-top: 4em;\n    margin-bottom: 1em;\n    color: white;\n    -webkit-box-pack: center;\n    -ms-flex-pack: center;\n    justify-content: center;\n    -webkit-box-align: center;\n    -ms-flex-align: center;\n    align-items: center;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n}\n\n.center-card {\n    margin-left: 38%;\n    color: white;\n}\n\nspan {\n    font-size: 2em;\n}", ""]);
 
 // exports
 
@@ -311,7 +311,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, ".nav-container {\n     background-color: lightgrey;\n     border-bottom: #b8342c solid 4px;\n     z-index: 1030;\n}\n\n.navbar-light .navbar-nav .nav-link.active {\n    color: #b8342c;\n}\n\n.nav-div-container {}\n\n.navbar-button {\n    border-color: #b8342c;\n    border-width: 2px;\n}\n\n.navbar-button :focus {\n    outline:none;\n}\n\n#brand-anchor {\n    height: 6em;\n}\n\n#brand-image  {\n    height: 100%;\n}\n\n.nav-link {\n    font-size: 1.4em;\n}\n\n.navbar-brand {\n    display: block;\n}\n\n#brand-name-cotainer {\n   margin-top: 3%;\n}\n\n#main-brand-name {\n    line-height: 0.2em;\n    font-size: 1.8em;\n    margin: 0 0 0 3%;\n}\n\n#unit-brand-name {\n    font-size: 1.2em;\n}\n", ""]);
+exports.push([module.i, ".nav-container {\n     background-color: lightgrey;\n     border-bottom: #b8342c solid 4px;\n     z-index: 1030;\n}\n\n.navbar-light .navbar-nav .nav-link.active {\n    color: #b8342c;\n}\n\n.nav-div-container {}\n\n.navbar-button {\n    border-color: #b8342c;\n    border-width: 2px;\n}\n\n.navbar-button :focus {\n    outline:none;\n}\n\n#brand-anchor {\n    height: 6em;\n}\n\n#brand-image  {\n    height: 100%;\n}\n\n.nav-link {\n    font-size: 1.4em;\n}\n\n.navbar-brand {\n    display: block;\n}\n\n#brand-name-cotainer {\n   margin-top: 3%;\n}\n\n#main-brand-name {\n    line-height: 0.2em;\n    font-size: 1.8em;\n    margin: 0 0 0 3%;\n}\n\n#unit-brand-name {\n    font-size: 1.2em;\n}\n\nfooter.py-4.bg-dark.no-user-select {\n    background-color: #b8342c !important;\n}\n", ""]);
 
 // exports
 
