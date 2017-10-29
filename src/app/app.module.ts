@@ -8,8 +8,13 @@ import { ContactComponent } from './Contact/contact.component';
 import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 import { HomeComponent } from './Home/home.component';
 import { ProductsComponent } from './Products/products.component';
+import { ProfileComponent } from './Profile/profile.component';
 
 const appRoutes: Routes = [
+  {
+    path: 'home',
+    component: HomeComponent
+  },
   {
     path: 'about-us',
     component: AboutUsComponent
@@ -23,8 +28,12 @@ const appRoutes: Routes = [
     component: ProductsComponent
   },
   {
+    path: 'profile',
+    component: ProfileComponent
+  },
+  {
     path: '',
-    redirectTo: 'about-us',
+    redirectTo: 'home',
     pathMatch: 'full'
   }
 ];
@@ -35,13 +44,14 @@ const appRoutes: Routes = [
     AboutUsComponent,
     ContactComponent,
     HomeComponent,
-    ProductsComponent
+    ProductsComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot(appRoutes)
   ],
   providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }],
-  bootstrap: [HomeComponent]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }

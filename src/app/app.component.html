@@ -1,32 +1,73 @@
-<div class="header-container">
-    <a id="logo-container" href="/">
-        <img id="brand-logo" src="../../assets/logo.png">
-    </a>
-    <div class="brand-name-container">
-        <label id="main-brand-name" class="brand-labels no-user-select">Shri Ramesth Industries</label>
-        <label id="unit-brand-name" class="brand-labels no-user-select">(A unit of Zhen Heal Craft Pvt.Ltd.)</label>
-    </div>
-    <div class="iso-container">A GMP & ISO 9001-2008 Certified Company</div>
-    </div>
-     <div class="navbar-container">
-     <nav class="navbar navbar-default">
-            <ul class="nav navbar-nav navigation-item-container">
-                <li class="nav-item navigation-items">
-                    <a class="nav-link no-user-select" routerLink='about-us'>About Us</a>
+<nav class="navbar navbar-expand-lg navbar-light fixed-top nav-container">
+    <div class="container nav-div-container">
+        <a id="brand-anchor" class="navbar-brand" href="#">
+            <img class="no-drag" src="assets/logo.png" id="brand-image" alt="">
+        </a>
+        <div id="brand-name-cotainer">
+            <p id="main-brand-name" class="navbar-brand">Shri Ramesth Industries</p>
+            <p id="unit-brand-name" class="navbar-brand">(A unit of Zhen Heal Craft Pvt.Ltd.)</p>
+        </div>
+        <button class="navbar-toggler navbar-button" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link no-user-select" [routerLinkActive]="['active']" routerLink='home'>Home</a>
                 </li>
-                <li class="nav-item navigation-items">
-                    <a class="nav-link no-user-select" routerLink='products'>Product</a>
+                <li class="nav-item">
+                    <a class="nav-link no-user-select" [routerLinkActive]="['active']" routerLink='about-us'>About Us</a>
                 </li>
-                <li class="nav-item navigation-items">
-                    <a class="nav-link no-user-select" routerLink='contact'>Contact</a>
+                <li class="nav-item">
+                    <a class="nav-link no-user-select" [routerLinkActive]="['active']" routerLink='products'>Products</a>
+                </li>
+                 <li class="nav-item">
+                    <a class="nav-link no-user-select" [routerLinkActive]="['active']" routerLink='profile'>Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link no-user-select" [routerLinkActive]="['active']" routerLink='contact'>Contact</a>
                 </li>
             </ul>
-        </nav>
-     </div>
-    <router-outlet></router-outlet>
-    <div class="navbar fixed-bottom footer-container">
-        <div class="footer-label no-user-select">© 2017 Zhen Heal Craft Pvt.Ltd. All rights reserved.</div>
-            <a class="fb-logo-container" href="https://www.facebook.com/Zhen-Heal-Craft-Pvt-Ltd-402363276564679/" target="blank">
-            <img class="fb-logo" src="assets/fb-logo.png">
-            </a>
+        </div>
     </div>
+</nav>
+
+<router-outlet></router-outlet>
+
+<footer class="py-4 bg-dark no-user-select">
+    <div class="footer-above">
+
+
+        <div class="container">
+
+            <div class="row">
+                 <div class="col-md-4">
+                    <span class="copyright text-white default-pointer">A GMP & ISO 9001-2008 Certified Company</span>
+                </div>
+                
+                <div class="col-md-5">
+                    <span class="copyright text-white default-pointer" style="float: right;">© 2017 Zhen Heal Craft Pvt.Ltd. All rights reserved.</span>
+                </div>
+               <div class="col-md-3 ">
+                    <ul class="list-inline social-buttons" >
+                        <li class="list-inline-item" style="float: right;">
+                            <a href="https://www.facebook.com/Zhen-Heal-Craft-Pvt-Ltd-402363276564679/" target="blank">
+                                <img class="fb-logo no-drag" src="assets/fb-logo.png">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="footer-below">
+        <div class="container">
+            <div class="row">
+                <div class="col-md ">
+                    <!--<span class="text-white" style="float: right;">Developed by Ankit Kapoor</span>-->
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
