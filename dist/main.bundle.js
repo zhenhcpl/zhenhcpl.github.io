@@ -76,7 +76,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, ".address-container {\n   border: 1px solid darkgrey;\n    margin-top: 30px;\n    height: 310px;\n    margin-left: 33px;\n    width: 90%;\n    margin-bottom: 30px;\n}\n\n.address-detail-container { \n   float: left;\n    position: relative;\n    top: 27px;\n}\n\n#contact-logo {\n    height: 15em;\n    width: 100%;\n}\n\n.map-container {\n    float: left;\n    position: relative;\n    top: 15px;\n}\n\n", ""]);
+exports.push([module.i, ".address-container {\n   border: 1px solid darkgrey;\n    margin-top: 30px;\n    height: 310px;\n    margin-left: 33px;\n    width: 90%;\n    margin-bottom: 30px;\n}\n\n.address-detail-container { \n   float: left;\n    position: relative;\n    top: 27px;\n}\n\n#contact-logo-container {\n    overflow: hidden;\n}\n\n#contact-logo {\n    height: 15em;\n    width: 100%;\n}\n\n.map-container {\n    float: left;\n    position: relative;\n    top: 15px;\n}\n\n", ""]);
 
 // exports
 
@@ -89,7 +89,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/Contact/contact.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div>\n    <img id=\"contact-logo no-drag\" src='assets/inner-banner.jpg'>\n</div>\n\n<div class=\"address-container\">\n    <div class=\"col-sm-4 address-detail-container\">\n        <h3>Corporate Address</h3>\n        <p>Khasra No. 360/184 & 364/235 P.O.<br> Tehsil - Baddi<br> Distt. Solan - 173205 (H.P.)</p>\n        <div>+91 9882998339</div>\n        <div>+91 9882998335</div>\n        <div>+91 9882998336</div>\n        <a href=\"mailto:zhenhcpl@gmail.com\" target=\"_top\">zhenhcpl@gmail.com</a>\n    </div>\n    <div class=\"col-sm-8 map-container\">\n        <div class=\"spinner\" *ngIf=\"isSpinnerVisible\" >\n            <div class=\"bounce1\"></div>\n            <div class=\"bounce2\"></div>\n            <div class=\"bounce3\"></div>\n        </div>\n        <iframe (load)=\"onFrameLoaded()\" src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d855.359564627506!2d76.79147269775844!3d30.95824982196401!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39055f9a5f7ac64f%3A0x5809b42ac0e8aa7!2sBaddi%2C+Himachal+Pradesh!5e0!3m2!1sen!2sin!4v1509037096123\"\n            width=\"100%\" height=\"270\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>\n</div>\n</div>"
+module.exports = "<div id=\"contact-logo-container\">\n    <img id=\"contact-logo no-drag\" src='assets/inner-banner.jpg'>\n</div>\n\n<div class=\"address-container\">\n    <div class=\"col-sm-4 address-detail-container\">\n        <h3>Corporate Address</h3>\n        <p>Khasra No. 360/184 & 364/235 P.O.<br> Tehsil - Baddi<br> Distt. Solan - 173205 (H.P.)</p>\n        <div>+91 9882998339</div>\n        <div>+91 9882998335</div>\n        <div>+91 9882998336</div>\n        <a href=\"mailto:zhenhcpl@gmail.com\" target=\"_top\">zhenhcpl@gmail.com</a>\n    </div>\n    <div class=\"col-sm-8 map-container\">\n        <div class=\"spinner\" *ngIf=\"isSpinnerVisible\" >\n            <div class=\"bounce1\"></div>\n            <div class=\"bounce2\"></div>\n            <div class=\"bounce3\"></div>\n        </div>\n        <iframe (load)=\"onFrameLoaded()\" src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d855.359564627506!2d76.79147269775844!3d30.95824982196401!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39055f9a5f7ac64f%3A0x5809b42ac0e8aa7!2sBaddi%2C+Himachal+Pradesh!5e0!3m2!1sen!2sin!4v1509037096123\"\n            width=\"100%\" height=\"270\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>\n</div>\n</div>"
 
 /***/ }),
 
@@ -136,7 +136,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, ".home-container {\n    background-image: url('/dist/assets/tint-back.JPG');\n    height: 81vh;\n    background-size: cover;\n}\n.flash-cards {\n    height: 9em;\n    border-radius: 13px;\n    margin-top: 4em;\n    margin-bottom: 1em;\n    color: white;\n    -webkit-box-pack: center;\n    -ms-flex-pack: center;\n    justify-content: center;\n    -webkit-box-align: center;\n    -ms-flex-align: center;\n    align-items: center;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n}\n\n.center-card {\n    margin-left: 38%;\n    color: white;\n}\n\nspan {\n    font-size: 2em;\n}", ""]);
+exports.push([module.i, ".home-container {\n    background-image: url('/docs/assets/tint-back.JPG');\n    height: 81vh;\n    background-size: cover;\n    overflow: hidden;\n}\n.flash-cards {\n    height: 9em;\n    border-radius: 13px;\n    margin-top: 4em;\n    margin-bottom: 1em;\n    color: white;\n    -webkit-box-pack: center;\n    -ms-flex-pack: center;\n    justify-content: center;\n    -webkit-box-align: center;\n    -ms-flex-align: center;\n    align-items: center;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n}\n\n.center-card {\n    margin-left: 38%;\n    color: white;\n}\n\nspan {\n    font-size: 2em;\n}", ""]);
 
 // exports
 

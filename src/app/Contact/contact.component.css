@@ -13,6 +13,10 @@
     top: 27px;
 }
 
+#contact-logo-container {
+    overflow: hidden;
+}
+
 #contact-logo {
     height: 15em;
     width: 100%;

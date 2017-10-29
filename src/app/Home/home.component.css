@@ -1,7 +1,8 @@
 .home-container {
-    background-image: url('/dist/assets/tint-back.JPG');
+    background-image: url('/assets/tint-back.JPG');
     height: 81vh;
     background-size: cover;
+    overflow: hidden;
 }
 .flash-cards {
     height: 9em;
