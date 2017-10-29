@@ -136,7 +136,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, ".home-container {\n    background-image: url('/docs/assets/tint-back.JPG');\n    height: 81vh;\n    background-size: cover;\n    overflow: hidden;\n}\n.flash-cards {\n    height: 9em;\n    border-radius: 13px;\n    margin-top: 4em;\n    margin-bottom: 1em;\n    color: white;\n    -webkit-box-pack: center;\n    -ms-flex-pack: center;\n    justify-content: center;\n    -webkit-box-align: center;\n    -ms-flex-align: center;\n    align-items: center;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n}\n\n.center-card {\n    margin-left: 38%;\n    color: white;\n}\n\nspan {\n    font-size: 2em;\n}", ""]);
+exports.push([module.i, ".home-container {\n    background-image: url('/assets/tint-back.JPG');\n    height: 81vh;\n    background-size: cover;\n    overflow: hidden;\n}\n.flash-cards {\n    height: 9em;\n    border-radius: 13px;\n    margin-top: 4em;\n    margin-bottom: 1em;\n    color: white;\n    -webkit-box-pack: center;\n    -ms-flex-pack: center;\n    justify-content: center;\n    -webkit-box-align: center;\n    -ms-flex-align: center;\n    align-items: center;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n}\n\n.center-card {\n    margin-left: 38%;\n    color: white;\n}\n\nspan {\n    font-size: 2em;\n}", ""]);
 
 // exports
 
