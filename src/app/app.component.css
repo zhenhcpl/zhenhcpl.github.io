@@ -52,3 +52,64 @@
 footer.py-4.bg-dark.no-user-select {
     background-color: #b8342c !important;
 }
+
+
+@media only screen and (max-width: 768px) { 
+
+#brand-anchor {
+    height: 6em;
+}
+
+#brand-name-cotainer {
+   margin-top: 3%;
+}
+
+
+#main-brand-name[_ngcontent-c0] {
+    font-size: 1.8em;
+}
+
+#unit-brand-name[_ngcontent-c0] {
+    font-size: 1.2em;
+}
+
+
+}
+@media only screen and (max-width: 481px) { 
+
+#brand-anchor {
+    height: 4.5em;
+} 
+
+
+#main-brand-name[_ngcontent-c0] {
+    font-size: 1.5em;
+}
+
+#unit-brand-name[_ngcontent-c0] {
+    font-size: 1em;
+}
+
+}
+
+@media only screen and (max-width: 320px) { 
+
+
+#main-brand-name[_ngcontent-c0] {
+    font-size: 1.1em;
+}
+
+#unit-brand-name[_ngcontent-c0] {
+    font-size: 0.8em;
+}
+
+#brand-anchor {
+    height: 4em;
+}
+
+    .navbar-button[_ngcontent-c0] {
+    font-size: 1rem;
+    margin-left: 3%;
+    margin-top: 1%;
+}
+}

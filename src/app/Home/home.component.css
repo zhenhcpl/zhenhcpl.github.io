@@ -49,13 +49,11 @@ span {
     height: 8em;
 }
  
-@media only screen and (max-width: 768px) { 
+@media only screen and (max-width: 484px) { 
 
-
-.home-container { 
-    margin-top: 50px;
+#brand-anchor {
+    height: 5em;
 }
-
 
  span {
      font-size: 1em
