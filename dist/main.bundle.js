@@ -136,7 +136,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, ".home-container {\n    background-image: url('/assets/tint-back.JPG');\n    height: 81vh;\n    background-size: cover;\n    overflow: hidden;\n}\n.flash-cards {\n    height: 9em;\n    border-radius: 13px;\n    margin-top: 4em;\n    margin-bottom: 1em;\n    color: white;\n    -webkit-box-pack: center;\n    -ms-flex-pack: center;\n    justify-content: center;\n    -webkit-box-align: center;\n    -ms-flex-align: center;\n    align-items: center;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n}\n\n.center-card {\n    margin-left: 38%;\n    color: white;\n}\n\nspan {\n    font-size: 2em;\n}", ""]);
+exports.push([module.i, ".home-container {\n    background-image: url('/dist/assets/tint-back.JPG');\n    height: 81vh;\n    background-size: cover;\n    overflow: hidden;\n}\n.flash-cards {\n    height: 9em;\n    border-radius: 13px;\n    margin-top: 4em;\n    margin-bottom: 1em;\n    color: white;\n    -webkit-box-pack: center;\n    -ms-flex-pack: center;\n    justify-content: center;\n    -webkit-box-align: center;\n    -ms-flex-align: center;\n    align-items: center;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    text-align: center;\n    -webkit-box-flex: 0;\n        -ms-flex: 0 0 25%;\n            flex: 0 0 25%;\n    max-width: 25%;\n}\n\n.center-card {\n    margin-left: 38%;\n    color: white;\n}\n\nspan {\n    font-size: 2em;\n}\n\n\n\n@media only screen and (max-width: 768px) {\n\nspan {\n     font-size: 1.5em\n}\n\n.offset-md-2 {\n    margin-left: 16.666667%;\n}\n\n.flash-cards {\n    height: 8em;\n}\n \n@media only screen and (max-width: 768px) { \n\n\n.home-container { \n    margin-top: 50px;\n}\n\n\n span {\n     font-size: 1em\n}\n\n.offset-md-2 {\n    margin-left: 16.666667%;\n}\n\n.flash-cards {\n    height: 6em;\n}\n\n}\n\n}", ""]);
 
 // exports
 
@@ -149,7 +149,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/Home/home.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"home-container\">\n    <div class=\"row \">\n        <div class=\"col-sm-3 offset-md-4 flash-cards center-card no-user-select default-pointer\" style=\"background: #52914a;\"><span>Zhen Heal Craft </span></div>\n    </div>\n    <div class=\"row\">\n        <div class=\"col-sm-3 offset-md-2 flash-cards no-user-select default-pointer\" style=\"background-color: #467dbf;text-align: center;\"><span>Shri Ramesth Industries</span></div>\n        <div class=\"col-sm-3 offset-md-2 flash-cards no-user-select\" style=\"background-color: #FE9920; cursor: pointer;\" (click)=\"openPaulLink()\"><span>Paul Real Estates</span></div>\n    </div>\n\n</div>"
+module.exports = "<div class=\"home-container\">\n    <div class=\"row \">\n        <div class=\"col-sm-3 offset-md-4 flash-cards center-card no-user-select default-pointer\" style=\"background: #52914a;\"><span>Zhen Heal Craft </span></div>\n    </div>\n    <div class=\"row\">\n        <div class=\"col-sm-3 offset-md-2 flash-cards no-user-select default-pointer\" style=\"background-color: #467dbf;\"><span>Shri Ramesth Industries</span></div>\n        <div class=\"col-sm-3 offset-md-2 flash-cards no-user-select\" style=\"background-color: #FE9920; cursor: pointer;\" (click)=\"openPaulLink()\"><span>Paul Real Estates</span></div>\n    </div>\n\n</div>"
 
 /***/ }),
 

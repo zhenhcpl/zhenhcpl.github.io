@@ -1,5 +1,5 @@
 .home-container {
-    background-image: url('/assets/tint-back.JPG');
+    background-image: url('/dist/assets/tint-back.JPG');
     height: 81vh;
     background-size: cover;
     overflow: hidden;
@@ -19,6 +19,9 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    text-align: center;
+    flex: 0 0 25%;
+    max-width: 25%;
 }
 
 .center-card {
@@ -28,4 +31,44 @@
 
 span {
     font-size: 2em;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+span {
+     font-size: 1.5em
+}
+
+.offset-md-2 {
+    margin-left: 16.666667%;
+}
+
+.flash-cards {
+    height: 8em;
+}
+ 
+@media only screen and (max-width: 768px) { 
+
+
+.home-container { 
+    margin-top: 50px;
+}
+
+
+ span {
+     font-size: 1em
+}
+
+.offset-md-2 {
+    margin-left: 16.666667%;
+}
+
+.flash-cards {
+    height: 6em;
+}
+
+}
+
 }
