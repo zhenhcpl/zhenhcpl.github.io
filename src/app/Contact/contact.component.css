@@ -15,11 +15,14 @@
 
 #contact-logo-container {
     overflow: hidden;
+    height: 19em;
+    position: relative;
 }
 
-#contact-logo {
-    height: 15em;
+.contact-logo {
     width: 100%;
+     position: absolute;
+    bottom: -14%;
 }
 
 .map-container {
@@ -27,4 +30,6 @@
     position: relative;
     top: 15px;
 }
+
+
 

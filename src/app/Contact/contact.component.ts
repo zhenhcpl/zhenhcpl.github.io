@@ -10,7 +10,7 @@ import { Component } from '@angular/core';
 export class ContactComponent {
     isSpinnerVisible: Boolean = true;
 
-    private onFrameLoaded() {
+    onFrameLoaded() {
         console.log('on frame loaded');
         this.isSpinnerVisible = false;
     }

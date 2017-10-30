@@ -28,3 +28,8 @@
   width: 200px;
   border-top: 3px solid #e7e7e7;
 }
+
+.carousel-headers {
+  color: white;
+  font-family: 'Roboto';
+}

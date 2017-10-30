@@ -1,5 +1,4 @@
 .home-container {
-    background-image: url('/dist/assets/tint-back.JPG');
     height: 81vh;
     background-size: cover;
     overflow: hidden;
@@ -20,8 +19,8 @@
     display: -ms-flexbox;
     display: flex;
     text-align: center;
-    flex: 0 0 25%;
-    max-width: 25%;
+    /*flex: 0 0 25%;
+    max-width: 25%;*/
 }
 
 .center-card {
@@ -30,7 +29,7 @@
 }
 
 span {
-    font-size: 2em;
+    font-size: 1.7em;
 }
 
 
