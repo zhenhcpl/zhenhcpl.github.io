@@ -1,0 +1,15 @@
+#arrow-image{
+    float: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.card {
+    background-color: #653239;
+    margin-top: 10px;
+}
+
+h5 {
+    color: white;
+}

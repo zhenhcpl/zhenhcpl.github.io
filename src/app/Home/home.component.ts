@@ -10,15 +10,4 @@ declare const window;
 })
 
 
-export class HomeComponent {
-backImage: String = 'assets/tint-back.JPG';
-    constructor(private router: Router) {
-      console.log('inside router');
-    }
-
-    openPaulLink() {
-      window.open('http://www.paulrealestates.com/');
-    }
-
-
-}
+export class HomeComponent {}

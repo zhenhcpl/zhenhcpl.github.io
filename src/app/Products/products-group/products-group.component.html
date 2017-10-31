@@ -1,0 +1,8 @@
+<div class="card group-container" (click)="toggleExpansion()">
+    <div class="card-header" role="tab" id="headingOne">
+        <h5 class="mb-0 no-user-select">{{category}} <div id="arrow-image" [ngStyle]="setImageStyle()"></div></h5>
+    </div>
+</div>
+<div id="accordion" role="tablist" *ngIf="expanded">
+<product-detail *ngFor="let product of products"  [product]="product"></product-detail>
+</div>

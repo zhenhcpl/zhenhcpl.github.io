@@ -1,0 +1,21 @@
+#arrow-image{
+    float: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.card {
+    width: 99%;
+    margin-left: 12px;
+}
+
+
+.collapsed-div {
+   background-color: #EFEDDE;
+}
+
+.card-body {
+    padding-bottom: 1rem;
+    padding-top: .5rem;
+}

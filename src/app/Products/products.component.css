@@ -1,12 +1,23 @@
 .product-container {
-    height: 38em;
+    min-height: 38em;
     background-color: #FED0BB;
-    align-items: center;
-    display: flex;
-    justify-content: center;
 }
 
-.coming-header {
-    font-family: 'Roboto Slab';
-    font-size: 4em;
+#distribute-div {
+    color: black;
+    margin-left: 1%;
+    font-size: 1.6em;
+    margin-top: 0%;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    font-family: 'Roboto';
+
+}
+
+.container {
+   width: 57%;
+   padding-bottom: 50px;
 }

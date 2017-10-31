@@ -7,9 +7,9 @@ import { AboutUsComponent } from './About Us/about-us.component';
 import { ContactComponent } from './Contact/contact.component';
 import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 import { HomeComponent } from './Home/home.component';
-import { ProductsComponent } from './Products/products.component';
 import { ProfileComponent } from './Profile/profile.component';
 import { CustomReuseStrategy } from './custom-reuse-strategy';
+import { ProductsModule } from './Products/products.module';
 
 const appRoutes: Routes = [
   {
@@ -23,10 +23,6 @@ const appRoutes: Routes = [
   {
     path: 'contact',
     component: ContactComponent
-  },
-  {
-    path: 'products',
-    component: ProductsComponent
   },
   {
     path: 'profile',
@@ -45,12 +41,12 @@ const appRoutes: Routes = [
     AboutUsComponent,
     ContactComponent,
     HomeComponent,
-    ProductsComponent,
     ProfileComponent
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes),
+    ProductsModule
   ],
   providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy },
   {provide: RouteReuseStrategy, useClass: CustomReuseStrategy}],
