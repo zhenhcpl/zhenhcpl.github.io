@@ -1,0 +1,65 @@
+#arrow-image {
+    float: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.card {
+    width: 99%;
+    margin-left: 1%;
+    box-shadow: -10px 5px 8px 0 rgba(0, 0, 0, 0.2), -5px 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.collapsed-div {
+    background-color: #EFEDDE;
+}
+
+.card-body {
+    padding-bottom: 1rem;
+    padding-top: .5rem;
+}
+
+.card-header:hover {
+    background-color: rgba(0, 0, 0, .075);
+}
+
+@media only screen and (max-width: 1150px) {}
+
+
+/* TABLETS PORTRAIT */
+
+@media only screen and (max-width: 768px) {
+    h5,
+    .card-body {
+        font-size: 1rem;
+    }
+    .card {
+        width: 97%;
+        margin-left: 3%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    h5,
+    .card-body {
+        font-size: .9rem;
+    }
+    .card {
+        width: 97%;
+        margin-left: 3%;
+    }
+}
+
+@media only screen and (max-width: 400px) {}
+
+@media only screen and (max-width: 330px) {
+    h5,
+    .card-body {
+        font-size: .7rem;
+    }
+    .card {
+        width: 96%;
+        margin-left: 4%;
+    }
+}

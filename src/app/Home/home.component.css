@@ -1,0 +1,171 @@
+.home-container {
+    height: 81vh;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.flash-cards {
+    border-radius: 13px;
+    margin-top: 4.5em;
+    margin-bottom: 1em;
+    color: white;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+}
+
+.update-position {
+    margin-top: 4em;
+    margin-bottom: 1em;
+}
+
+.fact-cards {
+    height: 30.33%;
+    font-size: 1rem;
+    background-color: #b8342c;
+    color: white;
+    margin-bottom: 2%;
+    margin-left: -12px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.zhen-fact-card {
+    border-right: 5px solid #FE9920;
+}
+
+.ramesth-fact-card {
+    border-right: 5px solid #467dbf
+}
+
+.center-card {
+    margin-left: 38%;
+    color: white;
+}
+
+.brand-names {
+    font-size: 1.6em;
+}
+
+.cards-container {
+    height: 9em;
+}
+
+@media only screen and (max-width: 1150px) {
+    .brand-names {
+        font-size: 1.4em;
+    }
+    .col-sm-2 {
+        -ms-flex: 0 0 18%;
+        flex: 0 0 18%;
+        max-width: 18%;
+    }
+    .cards-container {
+        height: 8em;
+    }
+    .home-container {
+        background-position: center;
+    }
+    .fact-cards {
+        font-size: .9rem;
+    }
+}
+
+
+/* TABLETS PORTRAIT */
+
+@media only screen and (max-width: 768px) {
+    .offset-md-1 {
+        margin-left: 8.333333%;
+    }
+    .brand-names {
+        font-size: 1.2em;
+    }
+    .col-sm-2 {
+        -ms-flex: 0 0 22%;
+        flex: 0 0 22%;
+        max-width: 22%;
+    }
+    .cards-container {
+        height: 7em;
+    }
+    .fact-cards {
+        font-size: .8rem;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .brand-names {
+        font-size: 1em;
+    }
+    .col-sm-2 {
+        -ms-flex: 0 0 24%;
+        flex: 0 0 24%;
+        max-width: 24%;
+    }
+    .offset-md-1 {
+        margin-left: 12%;
+    }
+    .cards-container {
+        height: 6em;
+    }
+    .fact-cards {
+        font-size: .7rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .brand-names {
+        font-size: .8em;
+    }
+    .col-sm-2 {
+        -ms-flex: 0 0 26%;
+        flex: 0 0 26%;
+        max-width: 26%;
+    }
+    .fact-cards {
+        font-size: .6rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .home-container {
+        height: 72vh;
+    }
+    .brand-names {
+        font-size: .6em;
+    }
+    .cards-container {
+        height: 5em;
+    }
+    .fact-cards {
+        font-size: .5rem;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .col-sm-2 {
+        -ms-flex: 0 0 30%;
+        flex: 0 0 30%;
+        max-width: 30%;
+    }
+    .fact-cards {
+        font-size: 7px;
+    }
+}

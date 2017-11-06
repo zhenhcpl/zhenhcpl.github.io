@@ -1,0 +1,10 @@
+<div class="card justify-content-center no-user-select" (click)="toggleExpansion()" data-toggle="collapse" [attr.data-target]="collapseHref" [attr.href]="collapseHref"  [attr.aria-controls]="collapseId">
+    <div class="card-header" role="tab" [id]="headingId">
+        <h5 class="mb-0">{{product.name}}<a id="arrow-image"   [ngStyle]="setImageStyle()"></a></h5>
+    </div>
+    <div [id]="collapseId" class="collapse collapsed-div default-pointer" role="tabpanel" [attr.aria-labelledby]="headingId" data-parent="#accordion">
+        <div class="card-body"><strong>COMPOSITION:</strong> {{product.composition}}</div>
+        <div class="card-body"><strong>PACKING:</strong> {{product.packing}}</div>
+        <div *ngIf="product.packagingType" class="card-body"><strong>PACKAGING TYPE:</strong> {{product.packagingType}}</div>
+    </div>
+</div>

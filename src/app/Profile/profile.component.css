@@ -1,0 +1,66 @@
+hr {
+    background-color: #1D7874;
+}
+
+p.post-meta {
+    background-color: #FDF0D5;
+    padding: 3%;
+}
+
+.unoredered-lines {
+    background-color: #FDF0D5;
+    padding-bottom: 3%;
+}
+
+@media only screen and (max-width: 1150px) {
+    .post-title {
+        font-size: 1.8rem;
+    }
+    .post-meta,
+    .unoredered-lines {
+        font-size: .9rem;
+    }
+}
+
+
+/* TABLETS PORTRAIT */
+
+@media only screen and (max-width: 768px) {
+    .post-title {
+        font-size: 1.6rem;
+    }
+    .post-meta,
+    .unoredered-lines {
+        font-size: .85rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .post-title {
+        font-size: 1.4rem;
+    }
+    .post-meta,
+    .unoredered-lines {
+        font-size: .8rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .post-title {
+        font-size: 1.1rem;
+    }
+    .post-meta,
+    .unoredered-lines {
+        font-size: .75rem;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .post-title {
+        font-size: .8rem;
+    }
+    .post-meta,
+    .unoredered-lines {
+        font-size: .5rem;
+    }
+}

@@ -1,0 +1,126 @@
+.address-container {
+    border: 1px solid darkgrey;
+    margin-top: 30px;
+    height: 385px;
+    width: 90%;
+    margin-bottom: 30px;
+}
+
+.address-detail-container {
+    float: left;
+    position: relative;
+    top: 27px;
+}
+
+#contact-logo-container {
+    overflow: hidden;
+    height: 19em;
+    position: relative;
+}
+
+.contact-logo {
+    width: 100%;
+    position: absolute;
+}
+
+.map-container {
+    float: left;
+    position: relative;
+    top: 27px;
+}
+
+.contact-labels {
+    font-size: 1rem;
+    display: block;
+    line-height: 1.7;
+}
+
+
+@media only screen and (max-width: 1150px) {
+    #contact-logo-container {
+        height: 15em;
+    }
+    .address-container {
+        height: 316px;
+    }
+    h3 {
+        font-size: 1.6rem;
+    }
+    .contact-labels {
+        font-size: .9rem;
+    }
+}
+
+
+/* TABLETS PORTRAIT */
+
+@media only screen and (max-width: 768px) {
+    #contact-logo-container {
+        height: 12em;
+    }
+    h3 {
+        font-size: 1.4rem;
+    }
+    .contact-labels {
+        font-size: .7rem;
+    }
+    .address-container {
+        height: 430px;
+    }
+    .address-detail-container {
+        margin-bottom: 20px;
+    }
+    .map-container[_ngcontent-c1] {
+        float: none;
+        top: 40px;
+    }
+    .col-sm-4 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .col-sm-8 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    h3 {
+        font-size: 1.2rem;
+    }
+    #contact-logo-container {
+        height: 8em
+    }
+    .address-container {
+        height: 380px;
+    }
+     .address-detail-container {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    h3 {
+        font-size: 1rem;
+    }
+    .address-container {
+        height: 350px;
+    }
+    #contact-logo-container {
+        height: 6em
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    h3 {
+        font-size: .9rem;
+    }
+    .address-container {
+        height: 320px;
+    }
+    #contact-logo-container {
+        height: 5em
+    }
+}

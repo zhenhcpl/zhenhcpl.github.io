@@ -1,0 +1,39 @@
+<!--<div class="home-container" style="background-image: url('assets/images/tint-back.JPG')">
+<div class="row">
+    <div class="col-sm-2 offset-md-1 flash-cards no-user-select" style="background-color: #FE9920;"><span class="brand-names">Zhen Heal Craft Pvt. Ltd.</span></div>
+</div>
+<div class="row">
+    <div class="col-sm-2 offset-md-1 flash-cards no-user-select default-pointer" style="background-color: #467dbf;"><span class="brand-names">Shri Ramesth Industries</span></div>
+</div>
+</div>-->
+
+
+<div class="fluid-container home-container" style="background-image: url('assets/images/tint-back.JPG')">
+
+<div class="row">
+  <div class="col-sm-2 offset-md-1 flash-cards update-position cards-container" (mouseenter)="isInsideZhen = true;zhenState='active'" (mouseleave)="isInsideZhen = false;zhenState='inactive'"
+    style="background-color: #FE9920;">
+    <span class="brand-names">Zhen Heal Craft Pvt. Ltd.</span>
+</div>
+<div class="col-sm-2 update-position align-items-center cards-container">
+  <div *ngIf="isInsideZhen" [@swipeIn-1]="zhenState" class="row fact-cards zhen-fact-card">Established in 2013</div>
+  <div *ngIf="isInsideZhen" [@swipeIn-2]="zhenState" class="row fact-cards zhen-fact-card">Over 500 Products</div>
+  <div *ngIf="isInsideZhen" [@swipeIn-3]="zhenState" class="row fact-cards zhen-fact-card ">ISO Certified</div>
+</div>
+  
+</div>
+
+<div class="row">
+  <div class="col-sm-2 offset-md-1 flash-cards update-position cards-container" (mouseenter)="isInsideRamesth = true;ramesthState='active'"
+    (mouseleave)="isInsideRamesth = false;ramesthState='inactive'" style="background-color: #467dbf;">
+    <span class="brand-names">Shri Ramesth Industries</span>
+</div>
+<div class="col-sm-2 update-position align-items-center cards-container">
+  <div *ngIf="isInsideRamesth" [@swipeIn-1]="ramesthState" class="row fact-cards ramesth-fact-card">Established in 2007</div>
+  <div *ngIf="isInsideRamesth" [@swipeIn-2]="ramesthState" class="row fact-cards ramesth-fact-card">Affordable prices</div>
+  <div *ngIf="isInsideRamesth" [@swipeIn-3]="ramesthState" class="row fact-cards ramesth-fact-card ">GMP Certified</div>
+</div>
+</div>
+
+
+</div>

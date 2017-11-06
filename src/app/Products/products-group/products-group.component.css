@@ -1,0 +1,37 @@
+#arrow-image {
+    float: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.card {
+    background-color: #653239;
+    margin-top: 10px;
+    box-shadow: -7px 9px 9px 3px rgba(0, 0, 0, 0.2), -10px 10px 20px 4px rgba(0, 0, 0, 0.19)
+}
+
+h5 {
+    color: white;
+}
+
+@media only screen and (max-width: 1150px) {}
+
+
+/* TABLETS PORTRAIT */
+
+@media only screen and (max-width: 768px) {
+    h5 {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {}
+
+@media only screen and (max-width: 400px) {}
+
+@media only screen and (max-width: 330px) {
+    h5 {
+        font-size: .7rem;
+    }
+}

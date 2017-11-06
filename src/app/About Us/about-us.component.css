@@ -1,0 +1,123 @@
+.carousel-item {
+    height: 65vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+.carousel-headers {
+    color: white;
+    font-family: 'Roboto';
+}
+
+.round-image-container {
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1150px) {
+    h2 {
+        font-size: 1.8rem;
+    }
+    .section-container {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .round-image-container {
+        -ms-flex: 0 0 40%;
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+    .carousel-item {
+    height: 60vh;
+    }
+}
+
+
+/* TABLETS PORTRAIT */
+
+@media only screen and (max-width: 768px) {
+    h2 {
+        font-size: 1.6rem;
+    }
+    .lead {
+        font-size: 1.1rem;
+    }
+    .section-container {
+        -ms-flex: 0 0 55%;
+        flex: 0 0 55%;
+        max-width: 55%;
+    }
+    .round-image-container {
+        -ms-flex: 0 0 45%;
+        flex: 0 0 45%;
+        max-width: 45%;
+    }
+    .content-section-a {
+      padding: 30px 0;
+    }
+    .carousel-item {
+    height: 55vh;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    h2 {
+        font-size: 1.4rem;
+    }
+    .lead {
+        font-size: 1rem;
+    }
+    .carousel-item {
+    height: 50vh;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    h2 {
+        font-size: 1.2rem;
+    }
+    .lead {
+        font-size: .8rem;
+    }
+    .carousel-item {
+    height: 45vh;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    h2 {
+        font-size: 14px;
+    }
+    .lead {
+        font-size: 10px;
+    }
+     .carousel-item {
+    height: 40vh;
+    }
+}
